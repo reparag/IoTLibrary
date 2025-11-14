@@ -113,6 +113,7 @@ Pod::Spec.new do |spec|
   
   #spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
+    spec.exclude_files = ["Package.swift", "*/Package.swift", "**/Package.swift"]
 
   # spec.public_header_files = "Classes/**/*.h"
 
