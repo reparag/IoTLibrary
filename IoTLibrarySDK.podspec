@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "IoTLibrarySDK"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.5"
   spec.summary      = "IoTLibrary provides core utilities and helpers for iOS apps."
 
   # This description is used to generate tags and improve search results.
@@ -87,7 +87,7 @@ Pod::Spec.new do |spec|
 
     # ---- MOST IMPORTANT FIX ----
   # Include prebuilt XCFramework
-  #spec.vendored_frameworks = "IoTLibrarySDK.xcframework"
+  spec.vendored_frameworks = "IoTLibrarySDK.xcframework"
 
   # Disable code signing for prebuilt SDK (fixes rsync errors)
   spec.pod_target_xcconfig = {
