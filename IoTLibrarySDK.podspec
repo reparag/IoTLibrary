@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "IoTLibrarySDK"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "IoTLibrary provides core utilities and helpers for iOS apps."
 
   # This description is used to generate tags and improve search results.
