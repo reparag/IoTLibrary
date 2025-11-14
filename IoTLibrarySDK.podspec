@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "IoTLibrary"
+  spec.name         = "IoTLibrarySDK"
   spec.version      = "0.0.1"
   spec.summary      = "IoTLibrary provides core utilities and helpers for iOS apps."
 
