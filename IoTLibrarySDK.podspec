@@ -85,6 +85,20 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/reparag/IoTLibrary.git", :tag => spec.version.to_s }
 
 
+    # ---- MOST IMPORTANT FIX ----
+  # Include prebuilt XCFramework
+  #spec.vendored_frameworks = "IoTLibrarySDK.xcframework"
+
+  # Disable code signing for prebuilt SDK (fixes rsync errors)
+  spec.pod_target_xcconfig = {
+    'CODE_SIGNING_ALLOWED' => 'NO',
+    'EXPANDED_CODE_SIGN_IDENTITY' => ''
+  }
+  spec.user_target_xcconfig = {
+    'CODE_SIGNING_ALLOWED' => 'NO',
+    'EXPANDED_CODE_SIGN_IDENTITY' => ''
+  }
+  
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  CocoaPods is smart about how it includes source code. For source files
