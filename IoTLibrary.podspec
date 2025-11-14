@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "IoTLibrary"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of IoTLibrary."
+  spec.summary      = "IoTLibrary provides core utilities and helpers for iOS apps."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,9 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-                   DESC
+    IoTLibrary is an iOS SDK offering utilities and components that can be integrated
+    via CocoaPods, Swift Package Manager, or manual installation.
+    DESC
 
   spec.homepage     = "https://github.com/reparag/IoTLibrary"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
