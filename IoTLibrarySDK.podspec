@@ -95,7 +95,7 @@ Pod::Spec.new do |spec|
 
   spec.swift_versions = ['5.0', '5.1', '5.2', '5.3', '5.4', '5.5', '5.6', '5.7', '5.8', '5.9', '5.10', '6.0', '6.1']
   spec.swift_version  = '6.1'
-  spec.source_files  = "Sources/**/*.{swift}"
+  spec.source_files  = "**/*.{swift}"
   
   #spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
